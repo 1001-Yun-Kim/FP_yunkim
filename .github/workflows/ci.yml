@@ -21,7 +21,7 @@ jobs:
           python -m pip install --upgrade pip
       - name: Install pycoverage
         run: |
-          pip install coverage
+          pip3 install coverage
       - name: Test with pytest
         run: |
           python3 test_finalGame.py
