@@ -45,7 +45,7 @@ jobs:
             username: ${{ secrets.DOCKER_USERNAME }}
             password: ${{ secrets.DOCKER_PASSWORD }}
       -  name: Docker Deployment
-         uses: wshihadeh/docker-deployment-action@v2
+         uses: wshihadeh/docker-deployment-action@finalproject
          with:
             push: true
             uses: 1001-Yun-Kim/setup-FP_yunkim@v2
