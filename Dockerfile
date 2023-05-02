@@ -1,7 +1,7 @@
 FROM python:3
 
 # set a directory for the app
-WORKDIR /usr/src/app
+WORKDIR /usr/FP_yunkim/app
 
 COPY . .
 
