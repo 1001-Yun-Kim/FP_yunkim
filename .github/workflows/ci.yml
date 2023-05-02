@@ -48,7 +48,7 @@ jobs:
          uses: wshihadeh/docker-deployment-action@v2
          with:
             push: true
-            tags: 1001-Yun-Kim / FP_yunkim:latest
+            tags: 1001-Yun-Kim / FP_yunkim@finalproject:latest
       - name: Docker Build Tag Publish
         uses: bitovi/github-actions-docker-publish@v1.0.7
         with:
