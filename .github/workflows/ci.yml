@@ -34,11 +34,7 @@ jobs:
       - name: coverage report
         run: |
           coverage report
-      -   id: docker-publish
-          uses: 1001-Yun-Kim/FP_yunkim@main
-          with:
-              docker_username: ${{ secrets.DOCKERHUB_USERNAME }}
-              docker_password: ${{ secrets.DOCKERHUB_PASSWORD }}
+      
   deploy:
     runs-on: ubuntu-latest
     needs: [build]
