@@ -35,7 +35,7 @@ jobs:
         run: |
           coverage report
       -   id: docker-publish
-          uses: bitovi/github-actions-docker-publish@main
+          uses: 1001-Yun-Kim/github-actions-docker-publish@main
           with:
               docker_username: ${{ secrets.DOCKERHUB_USERNAME }}
               docker_password: ${{ secrets.DOCKERHUB_PASSWORD }}
