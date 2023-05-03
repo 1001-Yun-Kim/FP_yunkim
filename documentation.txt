@@ -1,0 +1,28 @@
+github url: https://github.com/1001-Yun-Kim/FP_yunkim.git
+
+At first, I used Azure but I been having a issue with password.
+I changed my password then tried but still didn't work.
+
+So I used Github action & Docker Hub. I will list steps I did.
+
+1. Create Docker Account
+2. create repository in github
+3. push codes to github repository
+4. create docker file
+5. create .yml file in .github/workflow
+  - build automated testing
+  - build automated deployment
+6. create requirements
+7. set up secrets : setting- secrets - actions 
+   - DOCKER_USERNAME
+   - DOCKER_PASSWORD
+8. run workflows
+
+// I got stuck on stage 8. 
+I even create new projects and tried again, it still doesn't work. 
+
+Eventhough I didn't succeed my project, 
+I learned a lot about git action, git worflows and Docker.
+I am not familiar with python and git hub.
+I liked coding with python because it is much simpler 
+and working through git hub was good experience.
